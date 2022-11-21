@@ -1,7 +1,7 @@
 import LayoutPublic from './layaout/Layout'
 import { Routes, Route } from 'react-router-dom'
 import Tarjetas from './Pages/Tarjetas'
-import Footer from './footer'
+import Footer from './Footer'
 
 function App() {
 
