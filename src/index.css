@@ -151,8 +151,7 @@ body {
     background-size: cover;
     background-position: center;
     margin: 0;
-    height: 100vh;
-    overflow: hidden;
+    height: 100%;
   }
   
 }
@@ -260,5 +259,73 @@ body {
     
     color: rgba(6, 7, 7, 0.986); 
   }
+
+}
+
+
+/* DESARROLLO DE LA PAGINA COMANDOS */
+
+
+
+.contenedorComandos .titulo {
+  margin: 3em 0em 3em 0em;
+}
+
+.contenedorComandos .titulo h1 {
+  color: aliceblue;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.contenedorComandos h1 {
+  background-color: black;
+  color: rgba(19, 235, 134, 0.986); ;
+  border-radius: 1em;
+}
+
+.contenedorComandos .contenedorFuncionalidades li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: aliceblue;
+  font-size: 2em;
+  border-color: rgb(9, 40, 9);
+  width: auto;
+  background-color: black;
+}
+
+.contenedorComandos .contenedorFuncionalidades h1 {
+  margin: 1em 0em 1em 0em;
+}
+
+.contenedorComandos .contenedorFuncionalidades li:hover{
+  background-color: rgb(241, 241, 241);
+  color: black;
+}
+
+.contenedorComandos .comandosBotones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+ 
+
+ .contenedorComandos .comandosBotones a {
+  margin: 1em 5px 1em 5px;
+ }
+
+@media screen and (min-width: 850px) {
+  
+
+  .contenedorComandos .contenedorFuncionalidades {
+    width: 70%;
+  }
+
+  .contenedorComandos .comandosBotones {
+    width: auto;
+   }
+
+
 
 }
