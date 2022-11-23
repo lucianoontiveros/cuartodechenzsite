@@ -21,27 +21,27 @@ const NavBar = () => {
                 <div className="collapse itemsNav" id="navbarToggleExternalContent">
                     <div className="navbar-toggler bg-dark p-4" id="navBarlista" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <   Link className="nav-link m-4 text-light" to="/">
-                            <h5> > INICIO </h5>
+                            <h5> {`>`} INICIO </h5>
                             <p> Visita nuestro apartado inicial</p>
                         </Link>
                         <Link className="nav-link m-4 text-light" to="/modalidad">
-                            <h5> > SOBRE EL CANAL</h5>
+                            <h5> {`>`} SOBRE EL CANAL</h5>
                             <p>Entérate sobre el formato de Study With me que el cuarto de chenz brinda en sus directos. </p>
                         </Link>
                         <Link className="nav-link m-4 text-light" to="/staff">
-                            <h5> > STAFF</h5>
+                            <h5> {`>`} STAFF</h5>
                             <p>Estas son todas las personas que hacen posible que este canal exista</p>
                         </Link>
                         <Link className="nav-link m-4 text-light" to="/tutoriales">
-                            <h5> > TUTORIAL BRUNITO PET</h5>
+                            <h5> {`>`} TUTORIAL BRUNITO PET</h5>
                             <p>En este apartado podrás obtener información de como funciona el bot del canal de Twitch.</p>
                         </Link>
                         <Link className="nav-link m-4 text-light" to="/comandos">
-                            <h5> > COMANDOS</h5> 
+                            <h5> {`>`} COMANDOS</h5> 
                             <p>Todos los comandos que se emplean en el chat del canal.</p>
                         </Link>
                         <Link className="nav-link m-4 text-light" to="/eventos">
-                            <h5> > EVENTOS</h5>
+                            <h5> {`>`} EVENTOS</h5>
                             <p>Información sobre Eventos de la comunidad de discord</p>
                         </Link>
                     </div>
@@ -99,7 +99,7 @@ const NavBar = () => {
                                 <div className="card-body">
                                     <p className="card-text">Todos los comandos del canal para que puedas interactuar con nosotrxs el chat de Twitch</p>
                                     <div className="d-grid gap-2">
-                                        <a className="btn btn-dark" Target="_blank" href='https://cuartodechenz.netlify.app/comandos'>COMANDOS</a>
+                                        <a className="btn btn-dark" Target="_blank" href="#comandos">COMANDOS</a>
                                     </div>
                                 </div>
                             </div>

@@ -7,13 +7,13 @@ const Comandos = () => {
     return(
         <>  
             
-            <div className="container pt-5 contenedorComandos">
+            <div className="container pt-5 contenedorComandos" id="comandos">
                 <div className="titulo">
                     <h1 className="text-center"> COMANDOS PARA TWITCH</h1>
                 </div>
                 <BotonesCategoria />    
                 <div className="container contenedorFuncionalidades">
-                    <h1 className="text-center funcionalidadesTitulo" id="funcionalidades"> > FUNCIONALIDADES DE BRUNITO</h1>
+                    <h1 className="text-center funcionalidadesTitulo" id="funcionalidades"> {`>`} FUNCIONALIDADES DE BRUNITO</h1>
                     <ul className="list-group lista-grupo funcionalidades">
                          <BotonesCopiar text ="!tarea"/>
                          <BotonesCopiar text ="!lista"/>
@@ -26,7 +26,7 @@ const Comandos = () => {
                          <BotonesCopiar text ="!instagram"/>                        
                     </ul>
                     <BotonesCategoria />    
-                    <h1 className="text-center funcionalidadesTitulo" id="informativos"> > INFORMATIVOS </h1>
+                    <h1 className="text-center funcionalidadesTitulo" id="informativos"> {`>`} INFORMATIVOS </h1>
                     <ul className="list-group lista-grupo funcionalidades">
                          <BotonesCopiar text ="!info"/>
                          <BotonesCopiar text ="!chenz"/>
@@ -48,7 +48,7 @@ const Comandos = () => {
                          <BotonesCopiar text ="!sentarse"/>                             
                     </ul>
                     <BotonesCategoria />
-                    <h1 className="text-center funcionalidadesTitulo" id="sonidos"> > Sonidos e imagenes </h1>
+                    <h1 className="text-center funcionalidadesTitulo" id="sonidos"> {`>`} SONIDOS E IMÁGENES </h1>
                     <ul className="list-group lista-grupo funcionalidades">
                          <BotonesCopiar text ="!derecho"/>
                          <BotonesCopiar text ="!tastiste"/>
@@ -97,7 +97,7 @@ const Comandos = () => {
                          <BotonesCopiar text ="!ese"/>
                     </ul>
                     <BotonesCategoria />
-                    <h1 className="text-center funcionalidadesTitulo" id="interaccion"> > Sonidos e imagenes </h1>
+                    <h1 className="text-center funcionalidadesTitulo" id="interaccion"> {`>`} INTERACCIONES </h1>
                     <ul className="list-group lista-grupo funcionalidades">
                          <BotonesCopiar text ="!amor"/>
                          <BotonesCopiar text ="!bye"/>
@@ -110,6 +110,42 @@ const Comandos = () => {
                          <BotonesCopiar text ="!wisky"/>
                          <BotonesCopiar text ="!playlist"/>
                     </ul> 
+                    <BotonesCategoria /> 
+                    <h1 className="text-center funcionalidadesTitulo" id="acciones"> {`>`} ACCIONES </h1>
+                    <ul className="list-group lista-grupo funcionalidades">
+                         <BotonesCopiar text ="!baño"/>
+                         <BotonesCopiar text ="!calentar"/>
+                         <BotonesCopiar text ="!cenar"/>
+                         <BotonesCopiar text ="!almorzar"/>
+                         <BotonesCopiar text ="!desayunar"/>
+                         <BotonesCopiar text ="!merendar"/>
+                         <BotonesCopiar text ="!dientes"/>
+                         <BotonesCopiar text ="!ducha"/>
+                         <BotonesCopiar text ="!entrenar"/>
+                         <BotonesCopiar text ="!siesta"/>
+                         <BotonesCopiar text ="!trabajar"/>
+                         <BotonesCopiar text ="!unlurk"/>
+                         <BotonesCopiar text ="!cocina"/>
+                         <BotonesCopiar text ="!lavadora"/>
+                    </ul> 
+                    <BotonesCategoria />
+                    <h1 className="text-center funcionalidadesTitulo" id="bebidas"> {`>`} BEBIDAS O INFUSIONES </h1>
+                    <ul className="list-group lista-grupo funcionalidades">
+                         <BotonesCopiar text ="!mate"/>
+                         <BotonesCopiar text ="!té"/>
+                         <BotonesCopiar text ="!agua"/>
+                         <BotonesCopiar text ="!café"/>
+                         <BotonesCopiar text ="!matec"/>
+                         <BotonesCopiar text ="terere"/>
+                         <BotonesCopiar text ="!dientes"/>
+                         <BotonesCopiar text ="!ducha"/>
+                         <BotonesCopiar text ="!entrenar"/>
+                         <BotonesCopiar text ="!siesta"/>
+                         <BotonesCopiar text ="!trabajar"/>
+                         <BotonesCopiar text ="!unlurk"/>
+                         <BotonesCopiar text ="!cocina"/>
+                         <BotonesCopiar text ="!lavadora"/>
+                    </ul>
                     <BotonesCategoria />   
                 </div> 
             </div>
