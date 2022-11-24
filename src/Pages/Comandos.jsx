@@ -45,7 +45,13 @@ const Comandos = () => {
                          <BotonesCopiar text ="!recomendados"/>
                          <BotonesCopiar text ="!redes"/>
                          <BotonesCopiar text ="!reglas"/>
-                         <BotonesCopiar text ="!sentarse"/>                             
+                         <BotonesCopiar text ="!sentarse"/>
+                         <BotonesCopiar text ="!yaesta"/>   
+                         <BotonesCopiar text ="!anna"/>
+                         <BotonesCopiar text ="!any"/>
+                         <BotonesCopiar text ="!cande"/>
+                         <BotonesCopiar text ="!gabi"/>
+                         <BotonesCopiar text ="!mara"/>
                     </ul>
                     <BotonesCategoria />
                     <h1 className="text-center funcionalidadesTitulo" id="sonidos"> {`>`} SONIDOS E IMÁGENES </h1>
@@ -95,6 +101,30 @@ const Comandos = () => {
                          <BotonesCopiar text ="!tercermundi"/>
                          <BotonesCopiar text ="!nojuego"/>
                          <BotonesCopiar text ="!ese"/>
+                         <BotonesCopiar text ="!tercermundi"/>
+                         <BotonesCopiar text ="!pelotudismo"/>
+                         <BotonesCopiar text ="!papi"/>
+                         <BotonesCopiar text ="!mami"/>
+                         <BotonesCopiar text ="!elpecho"/>
+                         <BotonesCopiar text ="!yaesta"/>
+                         <BotonesCopiar text ="!belleza"/>
+                         <BotonesCopiar text ="!donando"/>
+                         <BotonesCopiar text ="!dulzura"/>
+                         <BotonesCopiar text ="!correperra"/>
+                         <BotonesCopiar text ="!luooz"/>
+                         <BotonesCopiar text ="!regalar"/>
+                         <BotonesCopiar text ="!risa"/>
+                         <BotonesCopiar text ="!rojo"/>
+                         <BotonesCopiar text ="!sorete"/>
+                         <BotonesCopiar text ="!pqno"/>
+                         <BotonesCopiar text ="!rechazo"/>
+                         <BotonesCopiar text ="!forro"/>
+                         <BotonesCopiar text ="!sexo"/>
+                         <BotonesCopiar text ="!chingona"/>
+                         <BotonesCopiar text ="!verde"/>
+                         <BotonesCopiar text ="!empanada"/>
+                         <BotonesCopiar text ="!pongo"/>
+                         <BotonesCopiar text ="!transmití"/>
                     </ul>
                     <BotonesCategoria />
                     <h1 className="text-center funcionalidadesTitulo" id="interaccion"> {`>`} INTERACCIONES </h1>
@@ -109,6 +139,10 @@ const Comandos = () => {
                          <BotonesCopiar text ="!notelapuedocreer"/>
                          <BotonesCopiar text ="!wisky"/>
                          <BotonesCopiar text ="!playlist"/>
+                         <BotonesCopiar text ="!fin"/>
+                         <BotonesCopiar text ="!ese"/>
+                         <BotonesCopiar text ="!usted"/>
+                         <BotonesCopiar text ="!nojuego"/>
                     </ul> 
                     <BotonesCategoria /> 
                     <h1 className="text-center funcionalidadesTitulo" id="acciones"> {`>`} ACCIONES </h1>
@@ -136,15 +170,7 @@ const Comandos = () => {
                          <BotonesCopiar text ="!agua"/>
                          <BotonesCopiar text ="!café"/>
                          <BotonesCopiar text ="!matec"/>
-                         <BotonesCopiar text ="terere"/>
-                         <BotonesCopiar text ="!dientes"/>
-                         <BotonesCopiar text ="!ducha"/>
-                         <BotonesCopiar text ="!entrenar"/>
-                         <BotonesCopiar text ="!siesta"/>
-                         <BotonesCopiar text ="!trabajar"/>
-                         <BotonesCopiar text ="!unlurk"/>
-                         <BotonesCopiar text ="!cocina"/>
-                         <BotonesCopiar text ="!lavadora"/>
+                         <BotonesCopiar text ="!terere"/>
                     </ul>
                     <BotonesCategoria />   
                 </div> 
