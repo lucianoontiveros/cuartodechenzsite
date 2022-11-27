@@ -54,6 +54,7 @@ body {
 }
 
 .nav-link {
+  text-decoration: none;
   color: rgb(229, 239, 248);
   border-radius: 1em;
 }
@@ -122,6 +123,7 @@ body {
   }
 
   .redes .card a {
+    text-align: none;
     color: rgba(19, 235, 134, 0.986); ;
   }
 

@@ -8,6 +8,7 @@ import Staff from './Pages/Staff'
 import Tutoriales from './Pages/Tutoriales'
 import NavBar from './NavBar'
 import Footer from './Footer'
+import NotFound from './Pages/NotFound'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route  element={<Tutoriales />} path="/tutoriales"></Route>
             <Route  element={<Comandos />} path="/comandos"></Route>
             <Route  element={<Eventos />} path="/eventos"></Route>
+            <Route  element={<NotFound />} path="*"></Route>
           </Route>
         </Routes>
         <Footer />

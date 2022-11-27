@@ -5,6 +5,7 @@ import Telegramjpg from './img/telegram.jpg'
 import Twitchjpg from './img/twitch.jpg'
 import Youtubejpg from './img/youtube.jpg'
 import Comandosjpf from './img/comandos.jpg'
+import Twitter from './img/twitter.jpg'
 
 const NavBar = () => { 
     return (
@@ -95,12 +96,12 @@ const NavBar = () => {
                                 </div>
                             </div>
                             <div className="card">
-                                <img src={Comandosjpf} className="card-img-top" alt="..."/>
+                                <img src={Twitter} className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                    <p className="card-text">Todos los comandos del canal para que puedas interactuar con nosotrxs el chat de Twitch</p>
-                                    <div className="d-grid gap-2">
-                                        <a className="btn btn-dark" Target="_blank" href="#comandos">COMANDOS</a>
-                                    </div>
+                                    <p className="card-text">Tambien podes seguir novedades a traves de Twitter.</p>
+                                    <div className="d-grid gap-2" >
+                                        <a className="btn btn-dark" Target="_blank" href='https://twitter.com/AgustnOntivero6'>TWITTER</a>
+                                    </div> 
                                 </div>
                             </div>
                         </div>

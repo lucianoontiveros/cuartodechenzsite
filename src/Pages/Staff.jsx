@@ -225,6 +225,42 @@ const Staff = () => {
                                     </div>
                             </div>
                     </div>
+                    <div className="card">
+                            <div className="card h-100">
+                                    <img src={ModJefe} className="card-img-top" alt="..."/>
+                                    <div className="card-body">
+                                        <h5 className="card-title">cceeele_ 🔰</h5>
+                                        <span className="badge text-bg-light">Moderadora</span>
+                                    </div>
+                            </div>
+                    </div>
+                    <div className="card">
+                            <div className="card h-100">
+                                    <img src={ModJefe} className="card-img-top" alt="..."/>
+                                    <div className="card-body">
+                                        <h5 className="card-title">coworkvirtual 💻</h5>
+                                        <span className="badge text-bg-light">Moderadora</span>
+                                    </div>
+                            </div>
+                    </div>
+                    <div className="card">
+                            <div className="card h-100">
+                                    <img src={ModJefe} className="card-img-top" alt="..."/>
+                                    <div className="card-body">
+                                        <h5 className="card-title">laprofecory 🪐</h5>
+                                        <span className="badge text-bg-light">Moderadora</span>
+                                    </div>
+                            </div>
+                    </div>
+                    <div className="card">
+                            <div className="card h-100">
+                                    <img src={ModJefe} className="card-img-top" alt="..."/>
+                                    <div className="card-body">
+                                        <h5 className="card-title">brunitopet 🐑</h5>
+                                        <span className="badge text-bg-light">Moderadora</span>
+                                    </div>
+                            </div>
+                    </div>
 
 
                 </div>
