@@ -372,5 +372,94 @@ body {
     padding: 1em 1em 1em 1em;
   }
 
+}
+
+.container-staff .staff {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container-staff .staff .card {
+  margin: 1em 0em 1em 0em;
+}
+
+.container-staff .staff .card span {
+  margin: 0em 0.2em 0em 0.2em;
+}
+
+
+@media screen and (min-width: 850px) {
+
+  .container-staff .staff {
+    display: flex;
+    padding: 1em 1em 1em 1em;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .container-staff .staff .card {
+    margin: 0.1em 0 0.4em 0;
+  }
+  
+  .container-staff .jefa {
+    border-color: gold;
+    color: gold;
+  }
 
 }
+
+.contenedorEventos .card-grupos .card .d-grid a {
+  margin: 0 1em 1em 1em;
+  border-color: green;
+  color: white;
+}
+
+.contenedorEventos {
+  padding: 1em 0 1em 0 ;
+}
+
+
+@media screen and (min-width: 850px) {
+
+  .contenedorEventos .card-grupos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedorEventos .card-grupos .card  {
+    margin: 0 1em 0 1em;
+
+  }
+
+  .contenedorEventos .card-grupos .card  {
+    margin: 0 1em 0 1em;
+  }
+
+  .contenedorEventos .card-grupos .card .d-grid a:hover {
+    color: green;
+    
+  }
+
+}
+
+@media screen and (min-width: 850px) {
+
+
+ .videoTutoriales .videoscontenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .videoTutoriales .videoscontenedor iframe {
+ margin: 1em 0 1em 0;
+ }
+
+}
+
+
+
+
+

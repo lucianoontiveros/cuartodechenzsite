@@ -41,18 +41,18 @@ const Modalidad = () => {
                         <div className="card cardDark">
                             <div className="card-body">
                                 <div className="card-horarios"> 
-                                    <h5 className="card-title">BRUNITOpet HORARIO:</h5>
-                                    <span>Lunes a Jueves:</span>
-                                    <h6 className="card-subtitle mb-2 text-muted">04:00 A 13:00 HS ARG</h6>
-                                    <h6 className="card-subtitle mb-2 text-muted">09:00 A 17:00 HS ESP</h6>
-                                    <h6 className="card-subtitle mb-2 text-muted">01:00 A 10:00 HS MEX DF</h6>
+                                    <h5 className="card-title">Cuarto de Chenz HORARIO:</h5>
+                                    <span>Lunes a Viernes:</span>
+                                    <h6 className="card-subtitle mb-2 text-muted">13:00 A 21:00 HS ARG</h6>
+                                    <h6 className="card-subtitle mb-2 text-muted">17:00 A 01:00 HS ESP</h6>
+                                    <h6 className="card-subtitle mb-2 text-muted">10:00 A 18:00 HS MEX DF</h6>
                                 </div>
                             </div>
                             <img src={chenzPet} class="card-img" alt="..."/>
                         </div>
                     </div>  
                     <div className="text-white text-hour">
-                        <p className="card-text mt-3">En este momento es cuando participo de cada uno de los breaks y momentos producticos, donde la comunidad está más activas. Nos divertimos jugando y charlando. No te olvides que por visualizarme hay puntos de canal que puedes intercambiar para una mejor interacción. Te animo a que participes y que puedas encontrar tu lugar.</p>
+                        <p className="card-text mt-3">En este momento es cuando participo de cada uno de los breaks y momentos producticos, donde la comunidad está más activa. Nos divertimos jugando y charlando. No te olvides que por visualizarme hay puntos de canal que puedes intercambiar para una mejor interacción. Te animo a que participes y que puedas encontrar tu lugar.</p>
                         <span>Te pido paciencia y respeto hacia mí, a la gente que está en el chat, la cual en su mayoría me acompañan hace mucho tiempo. No asumas confianza de más y aprende a medir tus comentarios. Los tiempos que determinamos se respetan, no insistas con otras cuestiones a causa que aquí estamos todos por lo mismo TRABAJAR Y/O ESTUDIAR con la finalidad que a cada uno lo motiva, lo cual, debe ser tu prioridad y la de todas en este espacio. Respeta lo que el chat decida en cuanto a votaciones y actividades a realizar.</span>
                         <h6 className="card-title mt-3">¿Qué más tengo que saber?</h6>
                         <p className="card-text"> En algunos momentos de productividad aprovecho para sacar pasear a mi compañero de cuarto: mi perro (bruno). También suelo aprovechar para ir a comer o ir al baño, simplemente por algunos minutos dado que en los recreos me quedo conversando con ustedes y no puedo repostar o atender ciertas cuestiones como las que nombre anteriormente.</p>
