@@ -18,8 +18,6 @@ const Eventos = () => {
                             <a class="btn" Target="_blank" href='https://discord.gg/UdU3wvpWu7' type="button">Discord</a>
                         </div>
                     </div>
-
-
                     <div className="card">
                         <img src={Elencargado} className="card-img-top" alt="..."/>
                         <div className="card-body">
