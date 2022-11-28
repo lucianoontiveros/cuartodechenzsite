@@ -5,6 +5,7 @@
 body {
   background-color: black;
   background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5));
+  text-align: justify;
 }
 
 .contenedorNav {
@@ -446,6 +447,13 @@ body {
 
 }
 
+
+
+.videoTutoriales {
+  display: none;
+ }
+
+
 @media screen and (min-width: 850px) {
 
 
@@ -456,7 +464,9 @@ body {
  }
 
  .videoTutoriales .videoscontenedor iframe {
- margin: 1em 0 1em 0;
+  margin: 1em 0 1em 0;
+  width: 560  
+  height= 315px;
  }
 
 }

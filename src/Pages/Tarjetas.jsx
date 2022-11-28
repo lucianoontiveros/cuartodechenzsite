@@ -29,12 +29,12 @@ const Tarjetas = () => {
                             <a className="btn btn-dark" Target="_blank" href='https://discord.gg/UdU3wvpWu7' type="a">DISCORD</a>
                         </div>
                     </div>
-                    <div className="card mb-1">
+                    <Link className="card mb-1" style={{ textDecoration: 'none' }} to="/comandos">
                         <img src={Comandosjpf} className="card-img-top" alt="..."/>
-                        <div >
-                            <Link className="card-body d-grid gap-2" to="/comandos"><a className="btn btn-dark" Target="_blank">COMANDOS</a></Link>
+                        <div className='card-body d-grid gap-2'>
+                           <button className="btn btn-dark" Target="_blank">COMANDOS</button>
                         </div> 
-                    </div>
+                    </Link>
                 </div>
             </div>
             

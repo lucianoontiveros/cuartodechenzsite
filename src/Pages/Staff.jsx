@@ -239,7 +239,7 @@ const Staff = () => {
                                     <img src={ModJefe} className="card-img-top" alt="..."/>
                                     <div className="card-body">
                                         <h5 className="card-title">coworkvirtual 💻</h5>
-                                        <span className="badge text-bg-light">Moderadora</span>
+                                        <span className="badge text-bg-light">Moderador</span>
                                     </div>
                             </div>
                     </div>
@@ -257,7 +257,7 @@ const Staff = () => {
                                     <img src={ModJefe} className="card-img-top" alt="..."/>
                                     <div className="card-body">
                                         <h5 className="card-title">brunitopet 🐑</h5>
-                                        <span className="badge text-bg-light">Moderadora</span>
+                                        <span className="badge text-bg-light">Mascota Moderador</span>
                                     </div>
                             </div>
                     </div>
