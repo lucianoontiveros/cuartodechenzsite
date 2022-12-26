@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Permanent+Marker&display=swap');
+
+/*DESARROLLO DE NAVBAR */
+
+body {
+  background-color: black;
+  background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5));
+  text-align: justify;
+}
+
+.contenedorNav {
+  margin-right: 10px;
+}
+
+#barraNavBar {
+  background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5));
+}
+
+#navbarToggleExternalContent{
+  border-radius: 0em 0em 1em 0em;
+}
+
+.cardContenedor2 {
+  display: none;
+}
+
+#navBarlista {
+  color: rgba(5, 177, 96, 0.986);
+  background-image: linear-gradient(rgba(5, 5, 5, 0.682), rgba(3, 3, 3, 0.69)), url('./src/img/1.png');
+  background-size: cover;
+  background-position: center;
+  height: 99vh;
+}
+
+#botonAndTitle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+}
+
+#botonAndTitle p {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+  padding-left: 1em;
+  margin: 0;
+}
+
+.card {
+  color: rgba(5, 177, 96, 0.986);
+  border-color: black;
+  background-color: black;
+  background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5));
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(229, 239, 248);
+  border-radius: 1em;
+}
+
+
+
+.nav-link h5 {
+  color: rgba(19, 237, 135, 0.986);
+  background-color: black;
+  padding: 10px;
+  border-radius: 1em;
+}
+
+
+@media screen and (min-width: 850px) {
+  .contenedorNav {
+    background-color: black;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+
+
+  .itemsNav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: nowrap;
+
+  }
+
+  .itemsNav .redes {
+    width: 100%;
+    padding: 0em 1em 0em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .cardContenedor1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+
+  }
+
+  .cardContenedor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+
+  }
+
+  .redes .card img {
+    width: 17.89rem;
+    height: 10rem;
+  }
+
+  .redes .card a {
+    text-align: none;
+    color: rgba(19, 235, 134, 0.986); ;
+  }
+
+  #barraNavBar {
+    border-radius: 0em 0.5em 0.5em 0em;
+  }
+
+  #navBarlista {
+    width: 30%;
+    border-radius: 0em 0.5em 1em 0em;
+    overflow: hidden;
+  }
+}
+
+
+
+/*DESARROLLO DE LAYOUT  */
+.containerLayout {
+  background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5)), url('./img/fondo.gif');
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 850px) {
+  .containerLayout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5)), url('./img/fondo.gif');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+}
+
+
+/* DESAROLLO DE TARJETAS */
+
+.contenedorTarjetas {
+  width: 100%;
+}
+
+
+.contenedor .video {
+  background-color: black;
+  color: rgba(19, 237, 135, 0.986);
+}
+
+@media screen and (min-width: 850px) {
+  .contenedorTarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    padding: 1em 0em 1em 0em;
+  }
+  .contenedorTarjetas .card img {
+    width: 18rem;
+    height: 10rem;
+  }
+
+  .card {
+    max-width: 18rem;
+  }
+
+  .card img {
+    max-height: 18rem;
+  }
+
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contenedor .video {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1em;
+    color: rgba(19, 237, 135, 0.986);
+  }
+
+}
+
+/* DESAROLLO DEL FOOTER */
+
+#footer .card-body h5{
+  color: rgba(19, 235, 134, 0.986); 
+}
+
+#footer .card-body p {
+  color: rgba(204, 208, 206, 0.986); 
+}
+
+.btn-green svg {
+  color: white;
+}
+
+@media screen and (min-width: 850px) {
+  #footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    height: 20vh;
+    margin-bottom: 0;
+    background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5));
+    border-color: rgba(19, 237, 135, 0.986);
+    border-radius: 1em;
+  }
+  
+  #footer .card-body h5{
+    color: rgba(19, 235, 134, 0.986); ;
+  }
+
+  #footer .card-body p {
+    color: rgba(204, 208, 206, 0.986); ;
+  }
+
+  .btn-green {
+    background-color: rgba(19, 235, 134, 0.986); 
+    margin: 0px 10px 10px 5px;
+  }
+  .btn-green:hover {
+    background-color: white; 
+  }
+
+  .btn-green svg {
+    color: black;
+  }
+
+  .btn-green svg:hover {
+    
+    color: rgba(6, 7, 7, 0.986); 
+  }
+
+}
+
+
+/* DESARROLLO DEL APARTADO COMANDOS */
+
+.contenedorComandos .titulo {
+  margin: 3em 0em 3em 0em;
+}
+
+.contenedorComandos .titulo h1 {
+  color: aliceblue;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.contenedorComandos h1 {
+  background-color: black;
+  color: rgba(19, 235, 134, 0.986); ;
+  border-radius: 1em;
+}
+
+.contenedorComandos .contenedorFuncionalidades li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: aliceblue;
+  font-size: 2em;
+  border-color: rgb(9, 40, 9);
+  width: auto;
+  background-color: black;
+}
+
+.contenedorComandos .contenedorFuncionalidades h1 {
+  margin: 1em 0em 1em 0em;
+}
+
+.contenedorComandos .contenedorFuncionalidades li:hover{
+  background-color: rgb(241, 241, 241);
+  color: black;
+}
+
+.contenedorComandos .comandosBotones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+ 
+
+ .contenedorComandos .comandosBotones a {
+  margin: 1em 5px 1em 5px;
+ }
+
+
+@media screen and (min-width: 850px) {
+  
+
+  .contenedorComandos .contenedorFuncionalidades {
+    width: 70%;
+  }
+
+  .contenedorComandos .comandosBotones {
+    width: auto;
+   }
+
+   .contenedorComandos .contenedorFuncionalidades h1 {
+    margin: 1em 0em 1em 0em;
+    width: 100%;
+  }
+
+}
+
+/* DESARROLLO DEL APARTADO MODALIDAD */
+
+.contenedor-modal{
+  padding: 2em 2em 2em 2em;
+}
+
+.text-hour {
+  margin: 1em 0em 1em 0em;
+}
+
+
+@media screen and (min-width: 850px) {
+  
+  
+  .cardDark .card-body .card-horarios h6 {
+    margin: 0.3em 0em 0.3em 0em;
+  }
+
+  .card-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card-flex .card-body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .contenedor-modal .text-hour {
+    padding: 1em 1em 1em 1em;
+  }
+
+}
+
+.container-staff .staff {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container-staff .staff .card {
+  margin: 1em 0em 1em 0em;
+}
+
+.container-staff .staff .card span {
+  margin: 0em 0.2em 0em 0.2em;
+}
+
+
+@media screen and (min-width: 850px) {
+
+  .container-staff .staff {
+    display: flex;
+    padding: 1em 1em 1em 1em;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .container-staff .staff .card {
+    margin: 0.1em 0 0.4em 0;
+  }
+  
+  .container-staff .jefa {
+    border-color: gold;
+    color: gold;
+  }
+
+}
+
+.contenedorEventos .card-grupos .card .d-grid a {
+  margin: 0 1em 1em 1em;
+  border-color: green;
+  color: white;
+}
+
+.contenedorEventos {
+  padding: 1em 0 1em 0 ;
+}
+
+
+@media screen and (min-width: 850px) {
+
+  .contenedorEventos .card-grupos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedorEventos .card-grupos .card  {
+    margin: 0 1em 0 1em;
+
+  }
+
+  .contenedorEventos .card-grupos .card  {
+    margin: 0 1em 0 1em;
+  }
+
+  .contenedorEventos .card-grupos .card .d-grid a:hover {
+    color: green;
+    
+  }
+
+}
+
+
+
+.videoTutoriales {
+  display: none;
+ }
+
+
+@media screen and (min-width: 850px) {
+
+
+ .videoTutoriales .videoscontenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .videoTutoriales .videoscontenedor iframe {
+  margin: 1em 0 1em 0;
+  width: 560  
+  height= 315px;
+ }
+
+}
+
+
+
+
+
