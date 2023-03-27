@@ -16,7 +16,7 @@ body {
   background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5));
 }
 
-#navbarToggleExternalContent{
+#navbarToggleExternalContent {
   border-radius: 0em 0em 1em 0em;
 }
 
@@ -125,7 +125,8 @@ body {
 
   .redes .card a {
     text-align: none;
-    color: rgba(19, 235, 134, 0.986); ;
+    color: rgba(19, 235, 134, 0.986);
+    ;
   }
 
   #barraNavBar {
@@ -159,7 +160,7 @@ body {
     margin: 0;
     min-height: 100vh;
   }
-  
+
 }
 
 
@@ -184,6 +185,7 @@ body {
     overflow: hidden;
     padding: 1em 0em 1em 0em;
   }
+
   .contenedorTarjetas .card img {
     width: 18rem;
     height: 10rem;
@@ -217,12 +219,12 @@ body {
 
 /* DESAROLLO DEL FOOTER */
 
-#footer .card-body h5{
-  color: rgba(19, 235, 134, 0.986); 
+#footer .card-body h5 {
+  color: rgba(19, 235, 134, 0.986);
 }
 
 #footer .card-body p {
-  color: rgba(204, 208, 206, 0.986); 
+  color: rgba(204, 208, 206, 0.986);
 }
 
 .btn-green svg {
@@ -240,21 +242,24 @@ body {
     border-color: rgba(19, 237, 135, 0.986);
     border-radius: 1em;
   }
-  
-  #footer .card-body h5{
-    color: rgba(19, 235, 134, 0.986); ;
+
+  #footer .card-body h5 {
+    color: rgba(19, 235, 134, 0.986);
+    ;
   }
 
   #footer .card-body p {
-    color: rgba(204, 208, 206, 0.986); ;
+    color: rgba(204, 208, 206, 0.986);
+    ;
   }
 
   .btn-green {
-    background-color: rgba(19, 235, 134, 0.986); 
+    background-color: rgba(19, 235, 134, 0.986);
     margin: 0px 10px 10px 5px;
   }
+
   .btn-green:hover {
-    background-color: white; 
+    background-color: white;
   }
 
   .btn-green svg {
@@ -262,8 +267,8 @@ body {
   }
 
   .btn-green svg:hover {
-    
-    color: rgba(6, 7, 7, 0.986); 
+
+    color: rgba(6, 7, 7, 0.986);
   }
 
 }
@@ -282,11 +287,12 @@ body {
 
 .contenedorComandos h1 {
   background-color: black;
-  color: rgba(19, 235, 134, 0.986); ;
+  color: rgba(19, 235, 134, 0.986);
+  ;
   border-radius: 1em;
 }
 
-.contenedorComandos .contenedorFuncionalidades li{
+.contenedorComandos .contenedorFuncionalidades li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -301,7 +307,7 @@ body {
   margin: 1em 0em 1em 0em;
 }
 
-.contenedorComandos .contenedorFuncionalidades li:hover{
+.contenedorComandos .contenedorFuncionalidades li:hover {
   background-color: rgb(241, 241, 241);
   color: black;
 }
@@ -311,17 +317,17 @@ body {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
- }
+}
 
- 
 
- .contenedorComandos .comandosBotones a {
+
+.contenedorComandos .comandosBotones a {
   margin: 1em 5px 1em 5px;
- }
+}
 
 
 @media screen and (min-width: 850px) {
-  
+
 
   .contenedorComandos .contenedorFuncionalidades {
     width: 70%;
@@ -329,9 +335,9 @@ body {
 
   .contenedorComandos .comandosBotones {
     width: auto;
-   }
+  }
 
-   .contenedorComandos .contenedorFuncionalidades h1 {
+  .contenedorComandos .contenedorFuncionalidades h1 {
     margin: 1em 0em 1em 0em;
     width: 100%;
   }
@@ -340,7 +346,7 @@ body {
 
 /* DESARROLLO DEL APARTADO MODALIDAD */
 
-.contenedor-modal{
+.contenedor-modal {
   padding: 2em 2em 2em 2em;
 }
 
@@ -350,8 +356,8 @@ body {
 
 
 @media screen and (min-width: 850px) {
-  
-  
+
+
   .cardDark .card-body .card-horarios h6 {
     margin: 0.3em 0em 0.3em 0em;
   }
@@ -380,7 +386,7 @@ body {
 .container-staff .staff {
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .container-staff .staff .card {
@@ -401,11 +407,11 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  
+
   .container-staff .staff .card {
     margin: 0.1em 0 0.4em 0;
   }
-  
+
   .container-staff .jefa {
     border-color: gold;
     color: gold;
@@ -420,7 +426,7 @@ body {
 }
 
 .contenedorEventos {
-  padding: 1em 0 1em 0 ;
+  padding: 1em 0 1em 0;
 }
 
 
@@ -431,18 +437,18 @@ body {
     justify-content: center;
   }
 
-  .contenedorEventos .card-grupos .card  {
+  .contenedorEventos .card-grupos .card {
     margin: 0 1em 0 1em;
 
   }
 
-  .contenedorEventos .card-grupos .card  {
+  .contenedorEventos .card-grupos .card {
     margin: 0 1em 0 1em;
   }
 
   .contenedorEventos .card-grupos .card .d-grid a:hover {
     color: green;
-    
+
   }
 
 }
@@ -451,27 +457,21 @@ body {
 
 .videoTutoriales {
   display: none;
- }
+}
 
 
 @media screen and (min-width: 850px) {
 
 
- .videoTutoriales .videoscontenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
+  .videoTutoriales .videoscontenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
- .videoTutoriales .videoscontenedor iframe {
-  margin: 1em 0 1em 0;
-  width: 560  
-  height= 315px;
- }
+  .videoTutoriales .videoscontenedor iframe {
+    margin: 1em 0 1em 0;
+    width: 560 height=315px;
+  }
 
 }
-
-
-
-
-

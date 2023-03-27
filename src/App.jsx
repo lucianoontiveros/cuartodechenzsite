@@ -14,21 +14,21 @@ import NotFound from './Pages/NotFound'
 function App() {
 
   return (
-      <>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<LayoutPublic/>}>
-            <Route  element={<Tarjetas />} path="/"></Route>
-            <Route  element={<Modalidad />} path="/modalidad"></Route>
-            <Route  element={<Staff />} path="/staff"></Route>
-            <Route  element={<Tutoriales />} path="/tutoriales"></Route>
-            <Route  element={<Comandos />} path="/comandos"></Route>
-            <Route  element={<Eventos />} path="/eventos"></Route>
-            <Route  element={<NotFound />} path="*"></Route>
-          </Route>
-        </Routes>
-        <Footer />
-      </>
+    <>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<LayoutPublic />}>
+          <Route element={<Tarjetas />} path="/"></Route>
+          <Route element={<Modalidad />} path="/modalidad"></Route>
+          <Route element={<Tutoriales />} path="/tutoriales"></Route>
+          <Route element={<Comandos />} path="/comandos"></Route>
+          { /*<Route  element={<Eventos />} path="/eventos"></Route>  */}
+          { /*<Route element={<Staff />} path="/staff"></Route>  */}
+          <Route element={<NotFound />} path="*"></Route>
+        </Route>
+      </Routes>
+      <Footer />
+    </>
   )
 }
 
