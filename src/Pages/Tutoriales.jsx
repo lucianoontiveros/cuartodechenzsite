@@ -18,7 +18,7 @@ const Tutoriales = () => {
         <Container>
           <h2 className="card-title text-white text-center mt-3 mb-3">VIDEO TUTORIAL BRUNITOPET</h2>
           <div className="ratio ratio-16x9">
-            <iframe src="https://www.youtube.com/embed/qi24YyPXmo0" title="YouTube video" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/FpeW2HvlDYE" title="YouTube video" allowfullscreen></iframe>
           </div>
 
         </Container>

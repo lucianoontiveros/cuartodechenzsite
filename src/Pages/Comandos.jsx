@@ -166,7 +166,7 @@ const Comandos = () => {
             <BotonesCopiar text="!meditar" />
             <BotonesCopiar text="!organizar" />
             <BotonesCopiar text="!compras" />
-            <BotonesCopiar text="!estirar" />
+            <BotonesCopiar text="!estirar" /> 
           </ul>
           <BotonesCategoria />
           <h1 className="text-center funcionalidadesTitulo" id="bebidas"> {`>`} BEBIDAS O INFUSIONES </h1>
