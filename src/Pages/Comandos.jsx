@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import BotonesCategoria from "../components/BotonesCategorias"
 import BotonesCopiar from "../components/BotonesCopiar"
 
@@ -14,16 +15,20 @@ const Comandos = () => {
         <BotonesCategoria />
         <div className="container contenedorFuncionalidades">
           <h1 className="text-center funcionalidadesTitulo" id="funcionalidades"> {`>`} FUNCIONALIDADES DE BRUNITO</h1>
+
+          <Link className="nav-link m-4 text-light" to="/tutoriales">
+            <h5> {`>`} TUTORIAL BRUNITO PET</h5>
+            <span className="text-aling-center">Recordar ver este tutorial antes de usar este tipo de comandos:</span>
+            <p>En este apartado podrás obtener información de como funciona el bot del canal de Twitch.</p>
+          </Link>
           <ul className="list-group lista-grupo funcionalidades">
             <BotonesCopiar text="!tarea" />
             <BotonesCopiar text="!lista" />
-            <BotonesCopiar text="!delete" />
+            <BotonesCopiar text="!clear" />
+            <BotonesCopiar text="!marcar" />
+            <BotonesCopiar text="!eliminar" />
             <BotonesCopiar text="!pickup " />
-            <BotonesCopiar text="!estado" />
             <BotonesCopiar text="!focus 25" />
-            <BotonesCopiar text="!actividad" />
-            <BotonesCopiar text="!signo" />
-            <BotonesCopiar text="!instagram" />
           </ul>
           <BotonesCategoria />
           <h1 className="text-center funcionalidadesTitulo" id="informativos"> {`>`} INFORMATIVOS </h1>
@@ -51,79 +56,107 @@ const Comandos = () => {
             <BotonesCopiar text="!eltimer" />
             <BotonesCopiar text="!lapala" />
             <BotonesCopiar text="!error" />
-          </ul>
+          </ul>re
           <BotonesCategoria />
           <h1 className="text-center funcionalidadesTitulo" id="sonidos"> {`>`} SONIDOS E IMÁGENES </h1>
           <ul className="list-group lista-grupo funcionalidades">
-            <BotonesCopiar text="!derecho" />
-            <BotonesCopiar text="!tastiste" />
-            <BotonesCopiar text="!pin" />
-            <BotonesCopiar text="!lee" />
-            <BotonesCopiar text="!aplausos" />
-            <BotonesCopiar text="!lasalita" />
-            <BotonesCopiar text="!estudioe" />
-            <BotonesCopiar text="!lachancla" />
-            <BotonesCopiar text="!forest" />
-            <BotonesCopiar text="!zarpado" />
-            <BotonesCopiar text="!grash" />
-            <BotonesCopiar text="!khe" />
-            <BotonesCopiar text="!dancecat" />
-            <BotonesCopiar text="!ex" />
-            <BotonesCopiar text="!superar" />
-            <BotonesCopiar text="!ola" />
-            <BotonesCopiar text="!ponele" />
-            <BotonesCopiar text="!quete" />
-            <BotonesCopiar text="!lobo" />
-            <BotonesCopiar text="!calmate" />
-            <BotonesCopiar text="!nonos" />
-            <BotonesCopiar text="!ayuda" />
-            <BotonesCopiar text="!tequiero" />
-            <BotonesCopiar text="!estirar" />
-            <BotonesCopiar text="!sahumerio" />
-            <BotonesCopiar text="!tecago" />
-            <BotonesCopiar text="!sali" />
-            <BotonesCopiar text="!besitos" />
-            <BotonesCopiar text="!plantitas" />
-            <BotonesCopiar text="!para" />
-            <BotonesCopiar text="!yaesta" />
+            <BotonesCopiar text="!abrachetada" />
+            <BotonesCopiar text="!abuscarla" />
+            <BotonesCopiar text="!anda" />
+            <BotonesCopiar text="!asiestamos" />
+            <BotonesCopiar text="!ayudame" />
+            <BotonesCopiar text="!any" />
             <BotonesCopiar text="!belleza" />
+            <BotonesCopiar text="!buenasnoches" />
+            <BotonesCopiar text="!buenastardes" />
+            <BotonesCopiar text="!buendia" />
+            <BotonesCopiar text="!cande" />
+            <BotonesCopiar text="!chingona" />
+            <BotonesCopiar text="!comerla" />
+            <BotonesCopiar text="!correPerra" />
             <BotonesCopiar text="!donando" />
+            <BotonesCopiar text="!dormir" />
+            <BotonesCopiar text="!transmiti" />
+            <BotonesCopiar text="!dulzura" />
+            <BotonesCopiar text="!elpecho" />
+            <BotonesCopiar text="!eltimer" />
+            <BotonesCopiar text="!empalmo" />
+            <BotonesCopiar text="!yaesta" />
+            <BotonesCopiar text="!ese" />
+            <BotonesCopiar text="!estas" />
+            <BotonesCopiar text="!fin" />
+            <BotonesCopiar text="!friend" />
+            <BotonesCopiar text="!forro" />
+            <BotonesCopiar text="!grash" />
+            <BotonesCopiar text="!hicistes" />
+            <BotonesCopiar text="!hacelo" />
+            <BotonesCopiar text="!ilegal" />
+            <BotonesCopiar text="!lapala" />
+            <BotonesCopiar text="!lapava" />
+            <BotonesCopiar text="!lapaloma" />
+            <BotonesCopiar text="!pantallita" />
+            <BotonesCopiar text="!lapastillita" />
+            <BotonesCopiar text="!lautaro" />
+            <BotonesCopiar text="!licuado" />
+            <BotonesCopiar text="!llorar" />
             <BotonesCopiar text="!luooz" />
-            <BotonesCopiar text="!pqno" />
-            <BotonesCopiar text="!regalar" />
-            <BotonesCopiar text="!risa" />
-            <BotonesCopiar text="!rojo" />
-            <BotonesCopiar text="!sorete" />
+            <BotonesCopiar text="!mate" />
+            <BotonesCopiar text="!magui" />
+            <BotonesCopiar text="!menor" />
             <BotonesCopiar text="!mami" />
+            <BotonesCopiar text="!meter" />
+            <BotonesCopiar text="!micho" />
+            <BotonesCopiar text="!mira" />
+            <BotonesCopiar text="!nojuego" />
+            <BotonesCopiar text="!nose" />
+            <BotonesCopiar text="!note" />
+            <BotonesCopiar text="!optimo" />
             <BotonesCopiar text="!papi" />
             <BotonesCopiar text="!pelotudismo" />
-            <BotonesCopiar text="!tercermundi" />
-            <BotonesCopiar text="!nojuego" />
-            <BotonesCopiar text="!ese" />
-            <BotonesCopiar text="!tercermundi" />
-            <BotonesCopiar text="!papi" />
-            <BotonesCopiar text="!mami" />
-            <BotonesCopiar text="!elpecho" />
-            <BotonesCopiar text="!yaesta" />
-            <BotonesCopiar text="!belleza" />
-            <BotonesCopiar text="!donando" />
-            <BotonesCopiar text="!dulzura" />
-            <BotonesCopiar text="!correperra" />
-            <BotonesCopiar text="!luooz" />
-            <BotonesCopiar text="!regalar" />
-            <BotonesCopiar text="!risa" />
-            <BotonesCopiar text="!rojo" />
-            <BotonesCopiar text="!sorete" />
-            <BotonesCopiar text="!pqno" />
-            <BotonesCopiar text="!rechazo" />
-            <BotonesCopiar text="!forro" />
-            <BotonesCopiar text="!sexo" />
-            <BotonesCopiar text="!chingona" />
-            <BotonesCopiar text="!verde" />
-            <BotonesCopiar text="!empanada" />
             <BotonesCopiar text="!pongo" />
-            <BotonesCopiar text="!transmití" />
+            <BotonesCopiar text="!pqno" />
+            <BotonesCopiar text="!puntitos" />
+            <BotonesCopiar text="!quienes" />
+            <BotonesCopiar text="!rechazo" />
+            <BotonesCopiar text="!risa" />
+            <BotonesCopiar text="!regalar" />
+            <BotonesCopiar text="!jojo" />
+            <BotonesCopiar text="!jugar" />
+            <BotonesCopiar text="!rodilla" />
+            <BotonesCopiar text="!rojo" />
+            <BotonesCopiar text="!sexo" />
+            <BotonesCopiar text="!sorete" />
+            <BotonesCopiar text="!temazo" />
+            <BotonesCopiar text="!temazo1" />
+            <BotonesCopiar text="!tercermundista" />
+            <BotonesCopiar text="!tere1" />
+            <BotonesCopiar text="!tere2" />
+            <BotonesCopiar text="!tere3" />
+            <BotonesCopiar text="!tere4" />
+            <BotonesCopiar text="!tuki" />
+            <BotonesCopiar text="!tuki1" />
+            <BotonesCopiar text="!tuki2" />
+            <BotonesCopiar text="!verde" />
+            <BotonesCopiar text="!var" />
+            <BotonesCopiar text="!usted" />
             <BotonesCopiar text="!unite" />
+            <BotonesCopiar text="!unite2" />
+            <BotonesCopiar text="!viernes" />
+            <BotonesCopiar text="!volví" />
+            <BotonesCopiar text="!misamores" />
+            <BotonesCopiar text="!qpesado" />
+            <BotonesCopiar text="!juancarlos" />
+            <BotonesCopiar text="!avisaron" />
+            <BotonesCopiar text="!chisme" />
+            <BotonesCopiar text="!acomerla" />
+            <BotonesCopiar text="!empanada" />
+            <BotonesCopiar text="!fenomenal" />
+            <BotonesCopiar text="!haytiempo" />
+            <BotonesCopiar text="!hijo" />
+            <BotonesCopiar text="!marcho" />
+            <BotonesCopiar text="!precoz" />
+            <BotonesCopiar text="!sangre" />
+
           </ul>
           <BotonesCategoria />
           <h1 className="text-center funcionalidadesTitulo" id="interaccion"> {`>`} INTERACCIONES </h1>
@@ -166,13 +199,14 @@ const Comandos = () => {
             <BotonesCopiar text="!meditar" />
             <BotonesCopiar text="!organizar" />
             <BotonesCopiar text="!compras" />
-            <BotonesCopiar text="!estirar" /> 
+            <BotonesCopiar text="!estirar" />
           </ul>
           <BotonesCategoria />
           <h1 className="text-center funcionalidadesTitulo" id="bebidas"> {`>`} BEBIDAS O INFUSIONES </h1>
           <ul className="list-group lista-grupo funcionalidades">
             <BotonesCopiar text="!mate" />
             <BotonesCopiar text="!té" />
+            <BotonesCopiar text="!techai" />
             <BotonesCopiar text="!agua" />
             <BotonesCopiar text="!café" />
             <BotonesCopiar text="!matec" />
@@ -180,7 +214,7 @@ const Comandos = () => {
           </ul>
           <BotonesCategoria />
         </div>
-      </div>
+      </div >
 
     </>
   )
